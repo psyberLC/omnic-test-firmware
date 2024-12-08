@@ -7,7 +7,7 @@
 #include "driver/gpio.h"
 #include "esp_timer.h"
 
-// Stack size in kilobytes allocated for each task
+// Stack size in bytes allocated for each task - deterimined with uxTaskGetStackHighWaterMark()
 #define STACK_SIZE 4096
 
 // Your LED pin - default GPIO2 for ESP32 DEVKIT V1
